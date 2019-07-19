@@ -28,7 +28,7 @@ class DIContainerWrapper extends CApplicationComponent
         $builder = new \DI\ContainerBuilder;
 
         if (!empty($this->definitions)) {
-            $builder->addDefinitions(new \DI\Definition\Source\ArrayDefinitionSource($this->definitions));
+            $builder->addDefinitions(new \DI\Definition\Source\DefinitionArray($this->definitions));
         }
 
         // @todo, more settings depending on environment and requirements
