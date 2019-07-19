@@ -1,0 +1,6 @@
+{
+	"name" : "marcovtwout/yii-php-di",
+	"require" : {
+		"php-di/php-di" : "^6"
+	}
+}
